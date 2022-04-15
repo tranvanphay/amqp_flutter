@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ISC</string>
+
+    <!--Notification-->
+    <string name="notification_title">ISC message</string>
+    <string name="notification_channel_name">Receipt Channel</string>
+    <string name="notification_service_channel_name">Order</string>
+    <string name="notification_description">Now, you can get new orders.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+</resources>
