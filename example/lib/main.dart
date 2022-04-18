@@ -18,10 +18,10 @@ void main() async {
 // Platform messages are asynchronous, so we initialize in an async method.
 Future<void> initPlatformState() async {
   return await AMQPService.startService(
-      host: 'YOURHOST',
+      host: 'your_host',
       port: 5672,
-      username: 'YOURUSERNAME',
-      password: 'YOUR_PASSWORD',
+      username: 'your_user_name',
+      password: 'your_pass',
       exchange: 'T-direct',
       key: '5210015');
 }

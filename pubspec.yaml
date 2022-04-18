@@ -1,7 +1,8 @@
 name: amqp_service
-description: A new flutter plugin project.
+description: AMQP Plugin for Android.
 version: 0.0.1
-homepage:
+verified publisher: phaytran.tech
+homepage: https://github.com/tranvanphay/flutter_fullpdfview
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

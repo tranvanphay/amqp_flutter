@@ -47,7 +47,7 @@ class AmqpServicePlugin: FlutterPlugin, MethodCallHandler{
     val arguments = call.arguments as Map<String, String>
       MessageService.start(this.context, ConnectionInfo(arguments["host"] as String,arguments["port"] as Int,arguments["username"] as String,arguments["password"] as String,arguments["exchange"] as String,arguments["key"] as String))
     EventBus.getDefault().register(this);
-    channel.invokeMethod("onReceiveMessage","ABC")
+   // channel.invokeMethod("onReceiveMessage","ABC")
 
     result.success(null)
   }
