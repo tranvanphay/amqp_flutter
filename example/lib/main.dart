@@ -21,7 +21,7 @@ Future<void> initPlatformState() async {
       host: 'your_host',
       port: 5672,
       username: 'your_user_name',
-      password: 'your_pass',
+      password: 'your_passs',
       exchange: 'T-direct',
       key: '5210015');
 }
